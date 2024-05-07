@@ -1,4 +1,7 @@
 package plugins.examples
 
-class SecondPlugin {
+import plugins.Plugin
+
+class SecondPlugin : Plugin {
+    override fun doWork(): String = "Working from the second plugin"
 }

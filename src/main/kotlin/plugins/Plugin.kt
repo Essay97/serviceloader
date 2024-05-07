@@ -1,5 +1,5 @@
 package plugins
 
-interface GreetingPlugin {
-    fun sayHello(): String
+interface Plugin {
+    fun doWork(): String
 }
